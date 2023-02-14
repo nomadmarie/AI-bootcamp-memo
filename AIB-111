@@ -1,0 +1,66 @@
+#AIB Section 1 Sprint 1 Note 1
+
+
+#부트캠프 목적
+# 1. 여러 분야에서 기초 소양을 다진다
+# 2. 내게 맞는 분야를 찾는다
+# 3. 현업에서 일할 때 분야를 넘나들 수 있는 멀티 플레이어가 된다
+
+
+#데이터 사이언스 분야: 수학, 통계학, 컴공, 산업공학, 사회과학 등
+
+
+#부트캠프 프로그램 구성
+# Section 1: 데이터 분석 입문
+# Section 2: 머신러닝
+# Section 3: 개발환경 구축 및 응용
+# Section 4: 딥러닝
+# Section 5: 컴공의 기본 - 자료구조와 알고리즘
+
+#5개의 Section + 프로젝트 Section + 커리어 Section
+
+#Section > Sprint(Week)(3개) + Project(1개) > Note(4개)
+
+#####
+
+#Section 1의 목표
+# EDA, 통계학, 선형대수의 필수 지식 학습
+# 파이썬의 Pandas, Numpy, Matplotlib 등 라이브러리 연습
+
+
+#Section 1의 구체적인 학습 내용
+# 전처리 기술과 분석 기법
+# 통계 이론을 데이터에 적용해 주어진 가설 검증
+# 선형대수 개념 이해 및 적용
+# 데이터 전처리 + 시각화 + 비즈니스 인사이트 도출(Project)
+
+###############
+
+#EDA
+ # 데이터(raw data) 정제와 탐색
+ # csv(comma seperated value)
+
+ #Pandas
+  # method
+  # 데이터 프래임
+
+ #행과 열로 구성
+ #Column: 특성/변수
+ #Row: 관측값/record
+
+
+#Feature Engineering(특성공학): Feature Engineering 수학적인 연산과 도메인 지식을 이용하여 raw data로부터 유용한 feature를 도출해 내는 과정
+ # 새로운 연산을 통한 새로운 열을 만드는 것
+
+
+#강의 내용
+ # import pandas as pd #데이터 프레임을 이용해 데이터를 분석하고 의미 도출
+ # import numpy as np #수학적 계산
+ # import matplotlib.pyplot as plt #시각화
+
+ # 데이터를 불러오는 과정: colab 업로드, url(DB, AWS, github), pd.read_csv()
+ # 결축치 확인: isnull(), isna(), numpy.nan
+
+
+
+
