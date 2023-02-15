@@ -1,0 +1,47 @@
+# Data Wrangling 
+ # 데이터 수집, 탐색, 정제
+ # 문제: 품질적, 구조적
+  # human errors
+ 
+ # 품질: 중복치, missing value, wrong value = problem of contents itself
+ # 구조
+  # 1) 각 변수(variable)는 하나의 열(column)을 구성  
+  # 2) 각 관측치(observation)는 하나의 행(row)을 구성  
+  # 3) 각 유형의 관측 단위가 표를 구성 
+ 
+
+# 품질의 문제
+ # 시각적 탐색: text editor, google sheet 와 같이 프로그램을 활용해, 데이터셋을 관찰
+ # 프로그래매틱 탐색: info() 등과 같은 코드를 사용하여, 전체적인 데이터를 확인
+  # 프로그래매틱 탐색은 functions와 methods를 이용하여 데이터를 확인하는 방법입니다.
+    아래는 Pandas에서 가장 빈번하게 사용되는 methods 입니다.
+
+.head() : 공식문서
+
+.tail() : 공식문서
+.sample() : 공식문서
+.info() : 공식문서
+.describe() : 공식문서
+.value_counts() : series only 공식문서
+.loc() , .iloc() : 데이터 인덱싱 및 선택 방법 loc 공식문서 iloc 공식문서
+
+
+# info()
+info() 함수를 통해서,
+데이터를 구성하는 행과 열의 크기, 컬럼명, data type 등을 확인할 수 있습니다.
+
+# describe()
+describe()는 numerical data types의 descriptive states(평균, 표준편차, 최소, 최대값 등)를 보여주는 메서드 입니다.
+
+# sample()
+sample()은 랜덤으로 데이터를 추출하여 보여주는 메서드 입니다.
+데이터의 세세한 확인 가능.
+
+# duplicated()
+duplicated()는 중복된 데이터를 확인할 수 있는 함수입니다.
+
+# sort_values()
+sort_values()는 값을 기준으로 정렬하는 메소드입니다.
+default로는 오름차순 정렬을 시행합니다.
+
+
